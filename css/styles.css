@@ -1,0 +1,152 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 72px;
+    padding: 4px 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header #navbar-pinterest{
+    display: flex;
+    align-items: center;
+    height: 56px;
+}
+
+#pinterest-icon{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+}
+#pinterest-icon img{
+    height: 24px;
+    width: 24px;
+}
+#pinterest-icon:hover{
+    background-color:lightgray;
+}
+a{
+    text-decoration: none;
+}
+#navbar-pinterest p{
+    font-size: 16px;
+    height: 48px;
+    width: 72px;
+    background-color: black;
+    color: white;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+#navbar-pinterest #buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+select{
+    border: 0px;
+    height: 48px;
+    width: 100px;
+    padding: 0px 16px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.cajabuscar{
+    padding: 0px 8px;
+}
+.finder{
+    height: 48px;
+    padding: 0px 0px 0px 16px;
+    font-size: 16px;
+    border-radius: 24px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: rgb(238, 238, 238);
+    border-width: 5px;
+    align-self: stretch;
+    flex-grow: 1;
+}
+.finder:hover{
+   
+    background-color: rgba(238, 238, 238, 0.705);
+}
+.finder:focus{
+    background-color: rgb(200, 195, 204);
+    border-color: rgb(156, 156, 226);
+    border-width: 5px;
+}
+#notifications{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+}
+#notifications img{
+    height: 24px;
+    width: 24px;
+    opacity: 0.6;
+}
+#message{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+}
+#message img{
+    height: 24px;
+    width: 24px;
+    opacity: 0.6;
+}
+#profile-img{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+}
+#profile-img img{
+    height: 24px;
+    width: 24px;
+    opacity: 0.6;
+    border-radius: 12px;
+}
+#cuentas{
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+#cuentas img{
+    height: 12px;
+    width: 12px;
+    opacity: 0.6;
+}
+#notifications:hover{
+    background-color:lightgray;
+}
+#message:hover{
+    background-color:lightgray;
+}
+#profile-img:hover{
+    background-color:lightgray;
+}
+#cuentas:hover{
+    background-color:lightgray;
+}
